@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/posterImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@string/some_img" />
+
+        <TextView
+            android:id="@+id/titleMove"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/move_title"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="@dimen/main_font" />
+
+        <TextView
+            android:id="@+id/yearMove"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/move_title"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="@dimen/main_font" />
+
+        <TextView
+            android:id="@+id/imdbId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/move_title"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="@dimen/main_font" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="enable_sound"
+        android:title="Enable Sound"
+        android:summaryOff="Sound disable"
+        android:summaryOn="Sound enable"/>
+    <EditTextPreference
+        android:key="some_text"
+        android:defaultValue="none words"
+        android:title="Some text"
+        android:icon="@mipmap/ic_launcher">
+    </EditTextPreference>
+    <ListPreference
+        android:title="Time melodies"
+        android:key="melody"
+        android:entries="@array/pref_sounds_labels"
+        android:entryValues="@array/pref_sound_values">
+
+    </ListPreference>
+</PreferenceScreen>

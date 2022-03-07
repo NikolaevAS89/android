@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_sounds_labels">
+        <item>Sound 2</item>
+        <item>Sound 2</item>
+    </array>
+    <array name="pref_sound_values">
+        <item>sound_1</item>
+        <item>sound_2</item>
+    </array>
+</resources>

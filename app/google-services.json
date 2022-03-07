@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1056026015291",
+    "project_id": "my-tutorial-68bff",
+    "storage_bucket": "my-tutorial-68bff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056026015291:android:dea63426d3e3908cb78e1e",
+        "android_client_info": {
+          "package_name": "ru.timestop.android.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056026015291-2chqbs7ig1155r6kj1hk4oab4t0fsjnt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.timestop.android.myapplication",
+            "certificate_hash": "4812cd813af8e4e2311c59d643eacaa7bd79c2fe"
+          }
+        },
+        {
+          "client_id": "1056026015291-8osh11rt445t2p540dm3octmb1np2phd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBmLpszxveh9_ba6iEdK4198fLImxrays"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056026015291-8osh11rt445t2p540dm3octmb1np2phd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
