@@ -1,13 +1,51 @@
 {
   "project_info": {
     "project_number": "1056026015291",
+    "firebase_url": "https://my-tutorial-68bff-default-rtdb.firebaseio.com",
     "project_id": "my-tutorial-68bff",
     "storage_bucket": "my-tutorial-68bff.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1056026015291:android:dea63426d3e3908cb78e1e",
+        "mobilesdk_app_id": "1:1056026015291:android:b088ecbfdf2f859cb78e1e",
+        "android_client_info": {
+          "package_name": "ru.timestop.android.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056026015291-5asr90pfk8jjpeje0lbf4u32qovmmosi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.timestop.android.chat",
+            "certificate_hash": "4812cd813af8e4e2311c59d643eacaa7bd79c2fe"
+          }
+        },
+        {
+          "client_id": "1056026015291-8osh11rt445t2p540dm3octmb1np2phd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBmLpszxveh9_ba6iEdK4198fLImxrays"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056026015291-8osh11rt445t2p540dm3octmb1np2phd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056026015291:android:84102c71f38cdbdeb78e1e",
         "android_client_info": {
           "package_name": "ru.timestop.android.myapplication"
         }

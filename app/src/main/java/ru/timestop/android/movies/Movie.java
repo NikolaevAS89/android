@@ -1,4 +1,4 @@
-package ru.timestop.android.model;
+package ru.timestop.android.movies;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

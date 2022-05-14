@@ -1,13 +1,16 @@
 <resources>
-    <string name="app_name">Cool timer</string>
+    <string name="app_name">Test apps</string>
 
     <string name="default_time">00:00:00</string>
 
     <string name="start">Run timer</string>
     <string name="preference">Preference</string>
-    <string name="chat">Chat</string>
-    <string name="movies">movies</string>
     <string name="stop">Stop timer</string>
+
+    <string name="timer">Timer</string>
+    <string name="chat">Chat</string>
+    <string name="movies">Movies</string>
+    <string name="camera">Camera</string>
 
     <string name="pref_sound">Is sound enable</string>
     <string name="pref_text">Is some text</string>
@@ -24,4 +27,5 @@
     <string name="move_year">Год</string>
     <string name="move_imdbid">imdbId</string>
     <string name="user_photo">user photo</string>
+    <string name="video_stream">video_stream</string>
 </resources>

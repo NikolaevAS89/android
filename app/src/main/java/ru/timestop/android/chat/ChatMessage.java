@@ -1,4 +1,4 @@
-package ru.timestop.android.model;
+package ru.timestop.android.chat;
 
 import lombok.Data;
 import lombok.experimental.Accessors;

@@ -1,4 +1,4 @@
-package ru.timestop.android.myapplication;
+package ru.timestop.android.movies;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -19,8 +19,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-import ru.timestop.android.adaptors.MovieAdaptor;
-import ru.timestop.android.model.Movie;
+import ru.timestop.android.myapplication.R;
 
 public class MovieActivity extends AppCompatActivity {
     private RecyclerView recyclerView;

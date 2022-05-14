@@ -1,4 +1,4 @@
-package ru.timestop.android.adaptors;
+package ru.timestop.android.movies;
 
 import android.content.Context;
 import android.util.Log;
@@ -15,7 +15,6 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-import ru.timestop.android.model.Movie;
 import ru.timestop.android.myapplication.R;
 
 public class MovieAdaptor extends RecyclerView.Adapter<MovieAdaptor.MovieViewHolder> {

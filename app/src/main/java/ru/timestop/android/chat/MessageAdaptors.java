@@ -1,4 +1,4 @@
-package ru.timestop.android.adaptors;
+package ru.timestop.android.chat;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -14,10 +14,14 @@ import androidx.annotation.Nullable;
 
 import com.bumptech.glide.Glide;
 
-import ru.timestop.android.model.ChatMessage;
+import java.util.ArrayList;
+import java.util.List;
+
 import ru.timestop.android.myapplication.R;
 
 public class MessageAdaptors extends ArrayAdapter<ChatMessage> {
+
+    private final List<ChatMessage> messages = new ArrayList<>();
 
     public MessageAdaptors(@NonNull Context context, int resource) {
         super(context, resource);
@@ -45,9 +49,5 @@ public class MessageAdaptors extends ArrayAdapter<ChatMessage> {
             userMessage.setText(message.getMessage());
         }
         return convertView;
-    }
-
-    public static class MessageHolder {
-
     }
 }

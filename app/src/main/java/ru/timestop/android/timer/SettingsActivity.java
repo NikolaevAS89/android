@@ -1,4 +1,4 @@
-package ru.timestop.android.myapplication;
+package ru.timestop.android.timer;
 
 import android.os.Bundle;
 import android.widget.Toast;
@@ -6,6 +6,8 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import static android.widget.Toast.LENGTH_LONG;
+
+import ru.timestop.android.myapplication.R;
 
 public class SettingsActivity extends AppCompatActivity {
     @Override

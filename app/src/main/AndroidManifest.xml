@@ -2,12 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="ru.timestop.android.myapplication">
-
+    <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-feature android:name="android.hardware.camera" android:required="true"/>
 
     <application
         android:allowBackup="true"
+        android:fullBackupOnly="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:usesCleartextTraffic="true"
@@ -17,6 +18,7 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="n">
         <activity
+            android:exported="true"
             android:name=".MainActivity"
             android:launchMode="singleTop">
             <intent-filter>
@@ -26,32 +28,41 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CameraActivity"
-            android:label="Camera">
+            android:exported="true"
+            android:name="ru.timestop.android.camera.CameraActivity"
+            android:label="@string/camera">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".SettingsActivity"
-            android:label="Preference">
+            android:exported="true"
+            android:name="ru.timestop.android.timer.TimerActivity"
+            android:label="@string/timer">
         </activity>
         <activity
-            android:usesCleartextTraffic="true"
-            android:name=".MovieActivity"
-            android:label="Movies">
+            android:exported="true"
+            android:name="ru.timestop.android.timer.SettingsActivity"
+            android:label="@string/preference">
         </activity>
         <activity
+            android:exported="true"
             android:usesCleartextTraffic="true"
-            android:name=".ChatActivity"
-            android:label="Chat">
+            android:name="ru.timestop.android.movies.MovieActivity"
+            android:label="@string/movies">
+        </activity>
+        <activity
+            android:exported="true"
+            android:usesCleartextTraffic="true"
+            android:name="ru.timestop.android.chat.ChatActivity"
+            android:label="@string/chat">
         </activity>
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
         <provider
-            android:name="ru.timestop.android.db.SimpleContentpRovIder"
+            android:name="ru.timestop.android.db.SimpleContentProvider"
             android:authorities="ru.timestop.android.db"
             android:exported="false" />
     </application>
