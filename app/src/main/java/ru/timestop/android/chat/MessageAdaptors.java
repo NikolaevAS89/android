@@ -21,8 +21,6 @@ import ru.timestop.android.myapplication.R;
 
 public class MessageAdaptors extends ArrayAdapter<ChatMessage> {
 
-    private final List<ChatMessage> messages = new ArrayList<>();
-
     public MessageAdaptors(@NonNull Context context, int resource) {
         super(context, resource);
     }

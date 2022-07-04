@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import ru.timestop.android.camera.CameraActivity;
 import ru.timestop.android.chat.ChatActivity;
+import ru.timestop.android.location.LocationActivity;
 import ru.timestop.android.movies.MovieActivity;
 import ru.timestop.android.timer.TimerActivity;
 
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button bttnCamera;
     private Button bttnChat;
     private Button bttnTimer;
+    private Button bttnLocation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +39,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         bttnTimer = this.findViewById(R.id.bttnTimer);
         bttnTimer.setOnClickListener(this);
+
+        bttnLocation = this.findViewById(R.id.bttnLocation);
+        bttnLocation.setOnClickListener(this);
     }
 
 
@@ -53,6 +58,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
         } else if (bttnChat.getId() == v.getId()) {
             Intent intent = new Intent(this, ChatActivity.class);
+            startActivity(intent);
+        } else if (bttnLocation.getId() == v.getId()) {
+            Intent intent = new Intent(this, LocationActivity.class);
             startActivity(intent);
         } else {
             Log.d("Error", "Id = " + v.getId());

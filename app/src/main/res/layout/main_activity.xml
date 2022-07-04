@@ -32,5 +32,11 @@
         android:layout_height="wrap_content"
         android:text="@string/camera"
         android:textAlignment="center" />
+    <Button
+        android:id="@+id/bttnLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textAlignment="center" />
 
 </LinearLayout>

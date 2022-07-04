@@ -6,7 +6,7 @@ import lombok.experimental.Accessors;
 @Data
 @Accessors(chain=true)
 public class ChatMessage {
-    String user;
-    String message;
-    String photoUrl;
+    private String user;
+    private String message;
+    private String photoUrl;
 }

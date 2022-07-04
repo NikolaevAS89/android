@@ -28,4 +28,5 @@
     <string name="move_imdbid">imdbId</string>
     <string name="user_photo">user photo</string>
     <string name="video_stream">video_stream</string>
+    <string name="send">Send</string>
 </resources>
