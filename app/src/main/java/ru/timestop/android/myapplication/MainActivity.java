@@ -12,6 +12,7 @@ import ru.timestop.android.camera.CameraActivity;
 import ru.timestop.android.chat.ChatActivity;
 import ru.timestop.android.location.LocationActivity;
 import ru.timestop.android.movies.MovieActivity;
+import ru.timestop.android.splash.SplashActivity;
 import ru.timestop.android.timer.TimerActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button bttnChat;
     private Button bttnTimer;
     private Button bttnLocation;
+    private Button bttnSplash;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +44,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         bttnLocation = this.findViewById(R.id.bttnLocation);
         bttnLocation.setOnClickListener(this);
+
+        bttnSplash = this.findViewById(R.id.bttnSplash);
+        bttnSplash.setOnClickListener(this);
     }
 
 
@@ -61,6 +66,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
         } else if (bttnLocation.getId() == v.getId()) {
             Intent intent = new Intent(this, LocationActivity.class);
+            startActivity(intent);
+        } else if (bttnSplash.getId() == v.getId()) {
+            Intent intent = new Intent(this, SplashActivity.class);
             startActivity(intent);
         } else {
             Log.d("Error", "Id = " + v.getId());

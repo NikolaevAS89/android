@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="ru.timestop.android.myapplication">
 
     <uses-permission android:name="android.permission.CAMERA" />
@@ -21,8 +20,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
-        android:usesCleartextTraffic="true"
-        tools:targetApi="n">
+        android:usesCleartextTraffic="true">
 
         <activity
             android:name="ru.timestop.android.myapplication.MainActivity"
@@ -45,26 +43,32 @@
         <activity
             android:name="ru.timestop.android.timer.TimerActivity"
             android:exported="true"
-            android:label="@string/timer"></activity>
+            android:label="@string/timer" />
         <activity
             android:name="ru.timestop.android.timer.SettingsActivity"
             android:exported="true"
-            android:label="@string/preference"></activity>
+            android:label="@string/preference" />
         <activity
             android:name="ru.timestop.android.movies.MovieActivity"
             android:exported="true"
             android:label="@string/movies"
-            android:usesCleartextTraffic="true"></activity>
+            android:usesCleartextTraffic="true" />
+        <activity
+            android:name="ru.timestop.android.splash.SplashActivity"
+            android:exported="true"
+            android:label="@string/splash"
+            android:usesCleartextTraffic="true"
+            android:theme="@style/Theme.Design.NoActionBar"/>
         <activity
             android:name="ru.timestop.android.chat.ChatActivity"
             android:exported="true"
             android:label="@string/chat"
-            android:usesCleartextTraffic="true"></activity>
+            android:usesCleartextTraffic="true" />
         <activity
             android:name="ru.timestop.android.location.LocationActivity"
             android:exported="true"
             android:label="Location"
-            android:usesCleartextTraffic="true"></activity>
+            android:usesCleartextTraffic="true" />
 
         <meta-data
             android:name="preloaded_fonts"

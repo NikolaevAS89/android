@@ -36,7 +36,13 @@
         android:id="@+id/bttnLocation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Location"
+        android:text="@string/location"
+        android:textAlignment="center" />
+    <Button
+        android:id="@+id/bttnSplash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/splash"
         android:textAlignment="center" />
 
 </LinearLayout>

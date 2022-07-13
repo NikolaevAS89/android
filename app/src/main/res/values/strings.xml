@@ -10,6 +10,8 @@
     <string name="timer">Timer</string>
     <string name="chat">Chat</string>
     <string name="movies">Movies</string>
+    <string name="taxi">Taxi</string>
+    <string name="splash">Splash</string>
     <string name="camera">Camera</string>
 
     <string name="pref_sound">Is sound enable</string>
@@ -29,4 +31,5 @@
     <string name="user_photo">user photo</string>
     <string name="video_stream">video_stream</string>
     <string name="send">Send</string>
+    <string name="location">Location</string>
 </resources>
