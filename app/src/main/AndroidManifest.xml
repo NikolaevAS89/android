@@ -34,12 +34,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="YOUR_API_KEY" />
-
-        <!--<activity
-            android:name="ru.timestop.android.maps.MapsActivity"
-            android:exported="false"
-            android:label="@string/title_activity_maps" />-->
+            android:value="${MAPS_API_KEY}" />
         <activity
             android:name="ru.timestop.android.myapplication.MainActivity"
             android:exported="true"
@@ -50,6 +45,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="ru.timestop.android.maps.MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
         <activity
             android:name="ru.timestop.android.camera.CameraActivity"
             android:exported="true"

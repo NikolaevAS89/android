@@ -45,4 +45,11 @@
         android:text="@string/splash"
         android:textAlignment="center" />
 
+    <Button
+        android:id="@+id/bttnMaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_maps"
+        android:textAlignment="center"/>
+
 </LinearLayout>
