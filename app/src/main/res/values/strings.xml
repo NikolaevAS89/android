@@ -32,4 +32,5 @@
     <string name="video_stream">video_stream</string>
     <string name="send">Send</string>
     <string name="location">Location</string>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>
